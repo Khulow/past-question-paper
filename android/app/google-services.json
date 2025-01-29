@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "671420766858",
+    "project_id": "kinetixes-ecfe8",
+    "storage_bucket": "kinetixes-ecfe8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671420766858:android:94f955608237c6a5cb6b73",
+        "android_client_info": {
+          "package_name": "com.kinetix.past_question_paper"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAccg7qaqgrQ5RaoLJwl5Km5WDCVVEz9R0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
