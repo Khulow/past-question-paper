@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:past_question_paper/views/homescreen1.dart';
 import 'package:past_question_paper/views/onboarding_screen.dart';
+import 'package:past_question_paper/views/question_view.dart';
 import 'package:past_question_paper/views/welcome_screen.dart';
 import 'package:past_question_paper/services/authentication_wrapper.dart';
 
@@ -53,14 +54,19 @@ class RouteManager {
         return MaterialPageRoute(
           builder: (context) => const Loading(),
         );
-
-      /*  case quizListPage:
+/* 
+       case quizListPage:
         return SlideFromBottomPageRoute(
           page: const QuizListScreen(),
-        );
+        ); */
 
-      case quizScreenPage:
-        return MaterialPageRoute(builder: (context) => const QuizScreen()); */
+      /*  case quizScreenPage:
+        return MaterialPageRoute(
+          builder: (context) => QuestionScreen(
+            subjectId: subjectId,
+            topicId: topicId,
+          ),
+        );  */
 
       /*   case quizSettingsPage:
         return MaterialPageRoute(
