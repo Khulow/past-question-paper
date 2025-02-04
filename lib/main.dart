@@ -1,6 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:past_question_paper/Routes/routes.dart';
+import 'package:past_question_paper/firebase_options.dart';
 import 'package:past_question_paper/services/bottom_nav_bar.dart';
 import 'package:past_question_paper/services/navigation_service.dart';
 import 'package:past_question_paper/viewmodels/user_viewmodel.dart';
@@ -8,9 +9,7 @@ import 'package:past_question_paper/utils/theme/theme.dart';
 import 'package:past_question_paper/viewmodels/question_viewmodel.dart';
 import 'package:past_question_paper/viewmodels/subject_viewmodel.dart';
 import 'package:past_question_paper/viewmodels/topic_viewmodel.dart';
-import 'package:past_question_paper/views/onboarding_screen.dart';
 import 'package:provider/provider.dart';
-import 'firebase_options.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -39,7 +38,6 @@ class MainApp extends StatelessWidget {
           theme: TAppTheme.lightTheme,
           darkTheme: TAppTheme.darkTheme,
           themeMode: ThemeMode.light,
-          //home: const OnboardingScreen(),
           initialRoute: RouteManager.onboardingPage,
           onGenerateRoute: RouteManager.generateRoute,
         );
