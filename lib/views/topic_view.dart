@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:past_question_paper/views/question_view.dart';
+import 'package:past_question_paper/views/quiz_instruction.dart';
 import 'package:provider/provider.dart';
 import 'package:past_question_paper/viewmodels/topic_viewmodel.dart';
 
@@ -110,7 +111,7 @@ class _TopicsScreenState extends State<TopicsScreen> {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => QuestionScreen(
+                        builder: (context) => QuizInstructionScreen(
                           subjectId: widget.subjectId,
                           topicId: topic.id,
                         ),
