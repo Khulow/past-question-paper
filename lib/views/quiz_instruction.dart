@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:past_question_paper/Routes/routes.dart';
-import 'package:past_question_paper/services/navigation_service.dart';
+
 import 'package:past_question_paper/views/question_view.dart';
 import 'package:provider/provider.dart';
 import '../viewmodels/question_viewmodel.dart';

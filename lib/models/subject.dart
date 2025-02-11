@@ -14,7 +14,7 @@ class Subject {
     required this.numberOfTopics,
     required this.description,
   });
-
+  //
   factory Subject.fromFirestore(Map<String, dynamic> data, String id) {
     return Subject(
       id: id,

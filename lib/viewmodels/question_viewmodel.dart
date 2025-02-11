@@ -52,7 +52,7 @@ class QuestionViewModel extends ChangeNotifier {
     notifyListeners();
   }
 
-  // Enhanced question loading with proper collection structure
+  //  question loading with proper collection structure
   Future<void> loadQuestions({
     required String subjectId,
     required String topicId,
@@ -113,7 +113,7 @@ class QuestionViewModel extends ChangeNotifier {
     }
   }
 
-  // Enhanced answer submission
+  // answer submission
   void submitAnswer(BuildContext context, String questionId,
       String selectedAnswerId, String correctAnswerId) {
     // 1. Store the user's answer locally
