@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:past_question_paper/common_widgets/login/login_widgets/login_footer.dart';
 import 'package:past_question_paper/common_widgets/login/login_widgets/login_form.dart';
-import 'package:past_question_paper/views/dashboard/app_progress_indicator.dart';
+import 'package:past_question_paper/common_widgets/app_progress_indicator.dart';
 import 'package:past_question_paper/miscellaneous/constants/image_strings.dart';
 import 'package:past_question_paper/miscellaneous/constants/text_strings.dart';
 import 'package:past_question_paper/viewmodels/user_viewmodel.dart';

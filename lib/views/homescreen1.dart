@@ -4,7 +4,7 @@ import 'package:past_question_paper/services/helper_user.dart';
 import 'package:past_question_paper/utils/theme/widget_themes/text_themes.dart';
 import 'package:past_question_paper/viewmodels/user_viewmodel.dart';
 import 'package:provider/provider.dart';
-import 'package:past_question_paper/views/dashboard/profile_screen.dart';
+import 'package:past_question_paper/views/profile_screen.dart';
 import 'package:past_question_paper/services/bottom_nav_bar.dart';
 
 // homescreen1.dart

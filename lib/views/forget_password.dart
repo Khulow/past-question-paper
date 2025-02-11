@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:past_question_paper/common_widgets/validators.dart';
 import 'package:past_question_paper/common_widgets/app_textfield.dart';
 import 'package:past_question_paper/services/helper_user.dart';
-import 'package:past_question_paper/views/dashboard/app_progress_indicator.dart';
+import 'package:past_question_paper/common_widgets/app_progress_indicator.dart';
 import 'package:past_question_paper/viewmodels/user_viewmodel.dart';
 import 'package:provider/provider.dart';
 import 'package:tuple/tuple.dart';

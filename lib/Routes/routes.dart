@@ -6,7 +6,7 @@ import 'package:past_question_paper/views/welcome_screen.dart';
 import 'package:past_question_paper/services/authentication_wrapper.dart';
 
 //import 'package:past_question_paper/features/core/screens/dashboard/Bottom_navigation.dart';
-import 'package:past_question_paper/views/dashboard/profile_screen.dart';
+import 'package:past_question_paper/views/profile_screen.dart';
 
 import 'package:past_question_paper/views/loading.dart';
 import 'package:past_question_paper/views/login.dart';
